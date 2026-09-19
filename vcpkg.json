@@ -12,7 +12,6 @@
     "sol2",
     "glew",
     "stb",
-    "joltphysics",
     "nlohmann-json"
   ]
 }
