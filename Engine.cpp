@@ -4,4 +4,28 @@
 
 
 
+namespace Sketch {
+
+	Engine::Engine() {
+		// init lua
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 
