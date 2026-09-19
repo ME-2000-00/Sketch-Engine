@@ -1,4 +1,3 @@
 # Sketch Engine
 
-a vfx preview for minecraft mods
-needs this mod for minecraft: --mod name--
+a 3d Game engine with lua as its scripting language
