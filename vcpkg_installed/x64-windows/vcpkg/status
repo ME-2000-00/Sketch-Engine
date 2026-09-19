@@ -1,0 +1,140 @@
+Package: vcpkg-cmake-config
+Version: 2026-07-21
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a8705a7bc99a1966fb40af9039777fb0b0fa6a5baf458f088274ef55c1b49337
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2025-08-07
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d6d945a7d98468879e65a01e94e348746c1b8a7456603357b9194b41a5aed285
+Status: install ok installed
+
+Package: egl-registry
+Version: 2025-05-27
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c3f49755b4128488a5366b95ef855b4425c5aefc1fff3f2818e20efd80cc6900
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2026-08-03
+Depends: egl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 62568c7fb3fb55fb031bd4a26efefcb1778b671c0acd127c10fbebd5b2fc98b8
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: install ok installed
+
+Package: opengl
+Version: 2022-12-04
+Port-Version: 3
+Depends: opengl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 2f1d3cb69210698d85cacc7630480713f2bac9f5e6419d0b481d7343a91c208a
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: install ok installed
+
+Package: glew
+Version: 2.3.1
+Depends: opengl, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 45106fe48dc8111167c2c6f3b2804ac311e09d72417c6402748cbb0258d51241
+Description: The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library.
+Status: install ok installed
+
+Package: glfw3
+Version: 3.5.1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 29f11a35f282ab6e6a2da7d1ee6f9204e2cd8361c89d24bd6e54ee42587a7b67
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+
+Package: glm
+Version: 1.0.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a89bd73e22a943c080990d3b10279ddedea95cf845197c5f619a9c2db290d636
+Description: OpenGL Mathematics (GLM)
+Status: install ok installed
+
+Package: imgui
+Version: 1.92.9
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 4759e0261f64355e214b754db72d8be3c128b3a5c715776e4183f06f02756d99
+Description: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies.
+Status: install ok installed
+
+Package: lua
+Version: 5.5.1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 620816fcdc4476d6a1bce6ace2397188e5e00839b877a7c8398d9bb8b84ba8c0
+Description: A powerful, fast, lightweight, embeddable scripting language
+Status: install ok installed
+
+Package: sol2
+Version: 3.5.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: be3f92514453f65ea45af6cf9b42db01e06fd948880701c9e9000c2d1cbee4dd
+Description: Sol3 (sol2 v3.0) - a C++ <-> Lua API wrapper with advanced features and top notch performance
+Status: install ok installed
+
+Package: imgui
+Feature: glfw-binding
+Depends: glfw3
+Architecture: x64-windows
+Multi-Arch: same
+Description: Make available GLFW binding
+Status: install ok installed
+
+Package: imgui
+Feature: opengl3-binding
+Architecture: x64-windows
+Multi-Arch: same
+Description: Make available OpenGL3/ES/ES2 (modern) binding
+Status: install ok installed
+
+Package: joltphysics
+Version: 5.6.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 214998fc849347afb0f4dfe7f35063ed84541fd983b4a6eeac4fab2ae25bec4a
+Description: A multi core friendly rigid body physics and collision detection library suitable for games and VR applications
+Status: install ok installed
+
+Package: stb
+Version: 2024-07-29
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 095f158e9abd6cb9f3c290bec1630d3624571778390fd7c3bfa70e6169ec14ad
+Description: public domain header-only libraries
+Status: install ok installed
+
+Package: nlohmann-json
+Version: 3.12.0
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 39d20321634603a8d2b7815d40f92a0ec0c5c5622155206b7298c0db24cc0664
+Description: JSON for Modern C++
+Status: install ok installed
+

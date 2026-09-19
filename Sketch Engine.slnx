@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Sketch Engine.vcxproj" />
+  <Project Path="Sketch Engine.vcxproj" Id="ea3e34db-5b1f-4136-9b87-23185c849db4" />
 </Solution>
